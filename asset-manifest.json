@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aurebeshtranslator/static/css/main.16a36d7d.css",
+    "main.js": "/aurebeshtranslator/static/js/main.3d8a8ca9.js",
+    "static/media/aurebesh-webfont.woff": "/aurebeshtranslator/static/media/aurebesh-webfont.9bd9bdc2c6c50ee55649.woff",
+    "static/media/aurebesh-webfont.woff2": "/aurebeshtranslator/static/media/aurebesh-webfont.b2271ab9d8176396f32a.woff2",
+    "index.html": "/aurebeshtranslator/index.html",
+    "main.16a36d7d.css.map": "/aurebeshtranslator/static/css/main.16a36d7d.css.map",
+    "main.3d8a8ca9.js.map": "/aurebeshtranslator/static/js/main.3d8a8ca9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a36d7d.css",
+    "static/js/main.3d8a8ca9.js"
+  ]
+}
