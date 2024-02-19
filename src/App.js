@@ -21,19 +21,17 @@ function App() {
     <div className="container">
       <div className="textboxContainer">
         <div className="col">
-          <input
-              type="text"
-              className={`${isAurebesh ? 'au' : 'en'} textbox size20`}
-              placeholder={isAurebesh ? 'Enter text in Aurebesh' : 'Enter text in English'}
-              value={inputText}
-              onChange={(e) => setInputText(e.target.value)}
-            />
+        <textarea
+            className={`form-control ${isAurebesh ? 'au size24' : 'en size20'} textbox size20`}
+            placeholder={isAurebesh ? 'Enter text in Aurebesh' : 'Enter text in English'}
+            value={inputText}
+            onChange={(e) => setInputText(e.target.value)}
+          />
         </div>
         <div className="col">
-          <input
-            type="text"
-            className={`${isAurebesh ? 'en' : 'au'} textbox size24`}
-            placeholder={isAurebesh ? 'English output' : 'Aurebesh output'}
+          <textarea
+            className={`form-control ${isAurebesh ? 'en size20' : 'au size24'} textbox `}
+            placeholder={isAurebesh ? 'Enter text in English' : 'Enter text in Aurebesh'}
             value={outputText}
             readOnly
           />

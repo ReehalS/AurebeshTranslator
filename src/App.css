@@ -30,15 +30,9 @@ body{
   height: 200px;
   text-align: left;
   vertical-align: top;
-  overflow-wrap: break-word;
+  text-wrap: wrap;
 }
 
-.aurebesh-keyboard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10px;
-}
 
 .col{
   display: inline;
@@ -47,6 +41,7 @@ body{
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
+  color: #FFD717;
   background-color: #0D63A5;
 }
 
@@ -72,6 +67,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ffd500;
   margin-top: 10px;
 }
 
